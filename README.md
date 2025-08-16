@@ -4,7 +4,7 @@
 For detailed AWS setup, refer to the [AWS Architecture Diagram](#) and service documentation.
 
 ## 🖼️ Architecture Diagram
-![StockPilot AWS Architecture](./.github/stockpilot-architecture.png)
+![StockPilot AWS Architecture](stockpilot-architecture.png)
 
 *Diagram: StockPilot AWS Architecture*
 
