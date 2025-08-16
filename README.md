@@ -3,12 +3,26 @@
 
 For detailed AWS setup, refer to the [AWS Architecture Diagram](#) and service documentation.
 
----
+## 🖼️ Architecture Diagram
+![StockPilot AWS Architecture](./.github/stockpilot-architecture.png)
+
+*Diagram: StockPilot AWS Architecture*
+
+EC2 instances host the React dashboard, managed by Auto Scaling Groups (ASG) and behind an Application Load Balancer (ALB).
+DynamoDB stores product and stock data.
+Lambda functions update stock counts on sales.
+S3 stores invoices and product images, served globally via CloudFront.
+Cognito secures access for employees/managers.
+SNS sends low-stock alerts to admins.
+QuickSight generates performance reports.
+IAM manages security and access.
+CloudWatch monitors and triggers alerts.
+
+*Replace this placeholder image with your actual architecture diagram.*
 
 ## 📝 Project Overview
 StockPilot is a modern, scalable dashboard for small businesses to manage inventory, suppliers, and sales trends. Built with React and Vite, it leverages AWS services for robust data management, security, and analytics.
 
----
 
 ## 🌟 Features
 | Feature | Description |
